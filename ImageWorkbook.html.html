@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Image Examples
+  </title>
+  <style type="text/css">
+    header {
+      height: 250px;
+      background-image: linear-gradient(to left top, blue, yellow);
+    }
+
+
+    .posit1 {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      z-index: 1;
+    }
+
+    }
+
+    .posit2 {
+      position: absolute;
+      top: 25px;
+      left: 10px;
+      z-index: -1;
+
+    }
+
+    main {
+      display: block;
+      height: auto;
+      width: auto;
+    }
+
+    article {
+      height: 250px;
+      display: block;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+
+    .meerkat {
+      margin: 100px;
+      transform: skew(20deg, 10deg)
+    }
+
+    .opc {opacity: 0.5;}
+
+    .opc:hover {opacity: 1.0}
+
+    footer {
+      height: 200px;
+      padding: 5px;
+      display: block;
+      background-image: url(assets/hedghog.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!--This is a comment for mark-up-->
+  <header>
+
+    <img src="assets/SCREAGLE.GIF" class="posit1" >
+    <img src="assets/SCREAGLE.GIF" class = "posit2">
+  </header>
+  <main>
+    <article>
+      <h3>Skew Example</h3>
+      <img class="meerkat" src="assets/meerkat.jpg">
+    </article>
+    <article>
+      <h3>Opacity Example</h3>
+      <img class="opc" src="assets/lobster.jpg">
+    </article>
+  </main>
+  <footer>
+    <h3>Background Image Example</h3>
+
+  </footer>
+</body>
+
+</html>
